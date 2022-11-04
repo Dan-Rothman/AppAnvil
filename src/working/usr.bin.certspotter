@@ -1,0 +1,22 @@
+# vim:syntax=apparmor
+# AppArmor policy for certspotter
+# ###AUTHOR###
+# ###COPYRIGHT###
+# ###COMMENT###
+
+#include <tunables/global>
+
+# No template variables specified
+
+"/usr/bin/certspotter" {
+  #include <abstractions/base>
+
+  # No abstractions specified
+
+  # No policy groups specified
+
+  # No read paths specified
+
+  # No write paths specified
+}
+
